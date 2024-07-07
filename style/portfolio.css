@@ -92,3 +92,30 @@ nav li a  {
     height: 676px;
     margin: auto;
 }
+
+/* main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about style */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+.item-title{
+    margin-bottom: 0;
+}
+.item-describtion{
+    margin-top: 0;
+    font-weight: bold;
+    
+}
