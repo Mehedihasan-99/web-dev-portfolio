@@ -26,11 +26,14 @@
     border: none;
 }
 .section-title{
+    text-align: center;
     font-size: 35px;
     font-weight: bold;
     color: #181818;
 }
-.section-describtion{}
+.section-describtion{
+    font-size: 16px;
+}
 .header{
     background-image: url(../images/developer.png) , url(../images/header_bg.png);
     background-repeat: no-repeat;
@@ -138,7 +141,7 @@ main section{
 .skill{
     padding: 30px;
     border-radius: 5px;
-    box-shadow: 0 6px 50px 0 black;
+    box-shadow: 0 6px 50px 0  rgba(152, 171, 184, 50%);
 }
 .skill-title{
     font-size: 20px;
@@ -147,4 +150,48 @@ main section{
 .skill-describtion{
     font-size: 20px;
     font-weight: 400;
+}
+
+/* resume */
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.experience-title .experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom:0px;
+}
+.resume-doenload-btn{
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* footer */
+.footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-colomn{
+    width: 50%;
+}
+.message-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+.message-describtion{
+    font-size: 16px;
+    font-weight: 400;
+}
+footer input[type="text"],footer input[type="email"],footer textarea{
+    height: 64px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 24px;
 }
